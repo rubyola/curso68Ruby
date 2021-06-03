@@ -1,0 +1,145 @@
+                    * {
+                        margin: 0px;
+                        padding: 0px;
+                    }
+                    
+                    * {
+                        outline: 1px dotted red;
+                    }
+                    
+                    #Titulo {
+                        padding: 10px;
+                        background-color: #F4F4F4;
+                        height: 60px;
+                        min-height: 40px;
+                        margin: 0px 30px 0px;
+                    }
+                    
+                    #Titulo h1 {
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        margin: 10px;
+                        font-size: 2.3em;
+                        width: 600px;
+                        display: inline-block;
+                    }
+                    
+                    #Titulo h2 {
+                        font-size: 1.6em;
+                        margin: 20px;
+                        width: 450px;
+                        display: inline-block;
+                        position: absolute;
+                    }
+                    
+                    #contenedor {
+                        background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(111, 89, 100, 1) 0%, rgba(30, 14, 18, 1) 100%);
+                        height: 1000px;
+                        width: 970;
+                        min-height: 40px;
+                        margin: 0px 30px 0px;
+                    }
+                    
+                    #contenedor img {
+                        width: 500px;
+                        height: auto;
+                        margin: 40px 40px 0px;
+                        border: silver 5px solid;
+                        display: inline-block;
+                    }
+                    
+                    #about {
+                        background-color: #F4F4F4;
+                        width: 595px;
+                        height: 335px;
+                        min-height: 40px;
+                        margin: 40px 20px 40px;
+                        position: absolute;
+                        background-image: radial-gradient(circle at -18.3% 31.7%, #fffcfe 0, #f0e8ee 25%, #ddcfdc 50%, #c9b7cb 75%, #b7a5bf 100%);
+                        display: inline-block;
+                    }
+                    
+                    #about h1 {
+                        font-size: 1.2em;
+                        color: #dde2c5;
+                        width: 595px;
+                        height: 40px;
+                        background: radial-gradient(circle at 43.84% 120.44%, #dde2c5 0, #c7c9bc 25%, #afafb3 50%, #9597aa 75%, #7980a2 100%);
+                        position: absolute;
+                        text-align: center;
+                    }
+                    
+                    #about h3,
+                    a {
+                        margin: 60px 15px 40px;
+                    }
+                    
+                    #contenedor2 {
+                        background: white height: 900px;
+                        width: 1230px;
+                        min-height: 40px;
+                        margin: 0px 40px 0px;
+                        display: inline-block;
+                    }
+                    
+                    .casetas {
+                        margin: 20px 30px 20px 0px;
+                        width: 365px;
+                        height: 570px;
+                        min-height: 40px;
+                        background-image: radial-gradient(circle at -18.3% 31.7%, #fffcfe 0, #f0e8ee 25%, #ddcfdc 50%, #c9b7cb 75%, #b7a5bf 100%);
+                        display: inline-block;
+                        position: relative;
+                    }
+                    
+                    .casetas h1 {
+                        font-size: 1.2em;
+                        color: #dde2c5;
+                        width: 365px;
+                        height: 40px;
+                        background: radial-gradient(circle at 43.84% 120.44%, #dde2c5 0, #c7c9bc 25%, #afafb3 50%, #9597aa 75%, #7980a2 100%);
+                        position: absolute;
+                        text-align: center;
+                    }
+                    
+                    #imagen1 img {
+                        width: 320px;
+                        height: auto;
+                        position: absolute;
+                        margin: 50px 20px;
+                        border: 0px;
+                    }
+                    
+                    .casetas h3 {
+                        margin: 230px 20px 20px;
+                        font-size: 16px;
+                        position: absolute;
+                    }
+                    
+                    .casetas h4 {
+                        margin: 380px 0px 0px;
+                        font-size: 1.2em;
+                        text-align: center;
+                        color: #dde2c5;
+                        width: 365px;
+                        height: 40px;
+                        background: radial-gradient(circle at 43.84% 120.44%, #dde2c5 0, #c7c9bc 25%, #afafb3 50%, #9597aa 75%, #7980a2 100%);
+                        position: absolute;
+                    }
+                    
+                    .iconos {
+                        background: white;
+                        height: 120px;
+                        width: 350px;
+                        min-height: 40px;
+                        margin: 420px 10px 10px;
+                        display: inline-block;
+                        position: absolute;
+                    }
+                    
+                    #icon img {
+                        width: 50px;
+                        height: auto;
+                        margin: 5px 10px 0px 5px;
+                        border: 0px;
+                        display: inline-block;
+                    }
