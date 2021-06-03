@@ -1,0 +1,100 @@
+                                                                                                                                                        /*CSS reset settings here*/
+                                                                                                                                                        
+                                                                                                                                                        * {
+                                                                                                                                                            margin: 0px;
+                                                                                                                                                            padding: 0px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        #wrapper {
+                                                                                                                                                            width: 970px;
+                                                                                                                                                            background-color: #12355B;
+                                                                                                                                                            margin: 0px auto;
+                                                                                                                                                            padding: 15px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        #header {
+                                                                                                                                                            min-height: 80px;
+                                                                                                                                                            background-color: #D72638;
+                                                                                                                                                            margin-bottom: 20px;
+                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                            font-size: 35px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        #navigation {
+                                                                                                                                                            min-height: 180px;
+                                                                                                                                                            width: 180px;
+                                                                                                                                                            background-color: #087E8B;
+                                                                                                                                                            vertical-align: top;
+                                                                                                                                                            display: inline-block;
+                                                                                                                                                            margin-right: 15px;
+                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                            px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        #main_content {
+                                                                                                                                                            min-height: 400px;
+                                                                                                                                                            width: 770px;
+                                                                                                                                                            background-color: #0C1821;
+                                                                                                                                                            display: inline-block;
+                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                            px;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        #footer {
+                                                                                                                                                            min-height: 40px;
+                                                                                                                                                            width: 965px;
+                                                                                                                                                            background-color: #5C6672;
+                                                                                                                                                            display: inline-block;
+                                                                                                                                                            border-radius: 10px;
+                                                                                                                                                            margin-top: 15px;
+                                                                                                                                                        }
+                                                                                                                                                        /* ESTA PARTE LE DI UN ORDEN AL TEXTO */
+                                                                                                                                                        
+                                                                                                                                                        h1 {
+                                                                                                                                                            margin: 10px;
+                                                                                                                                                            padding: 20px;
+                                                                                                                                                            font-size: 40px;
+                                                                                                                                                            color: white;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        p {
+                                                                                                                                                            margin: 10px;
+                                                                                                                                                            padding: 10px;
+                                                                                                                                                            font-size: 14px;
+                                                                                                                                                            font-stretch: normal;
+                                                                                                                                                            color: white;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        h2 {
+                                                                                                                                                            margin: 10px;
+                                                                                                                                                            font-size: 20px;
+                                                                                                                                                            color: white;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        h3 {
+                                                                                                                                                            margin: 20px 20px 20px 40px;
+                                                                                                                                                            font-size: 14px;
+                                                                                                                                                            color: white;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        h4 {
+                                                                                                                                                            margin: 10px 10px 10px 10px;
+                                                                                                                                                            font-size: 12px;
+                                                                                                                                                            color: white;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        h5 {
+                                                                                                                                                            margin: 5px 20px 5px 20px;
+                                                                                                                                                            font-size: 12px;
+                                                                                                                                                            color: aqua;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        ul {
+                                                                                                                                                            padding: 10px;
+                                                                                                                                                            color: aqua;
+                                                                                                                                                        }
+                                                                                                                                                        
+                                                                                                                                                        li {
+                                                                                                                                                            padding: 0px;
+
+                                                                                                                                                        }
