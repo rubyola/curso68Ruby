@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNCIONES::</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $('document').ready(function() {
+            //$('').accion(function(){});
+            $('#boton1').click(function() {
+                console.log("Función click");
+                alert("Función click");
+            });
+            //hide
+            $('#boton2').click(function() {
+                $('#parrafo2').hide();
+            });
+            $('#parrafo2').click(function() {
+                $('#parrafo2').hide();
+            });
+            //show
+            $('#boton3').click(function() {
+                $('#parrafo2').show();
+            });
+            //toggle
+            $('#boton4').click(function() {
+                $('#parrafo2').toggle();
+            });
+            //Slidown
+            $('#boton5').click(function() {
+                $('#parrafo3').slideDown();
+            });
+            //SlidUP
+            $('#boton6').click(function() {
+                $('#parrafo3').slideUp();
+            });
+            //SlidToggle
+            $('#boton7').click(function() {
+                $('#parrafo3').slideToggle();
+            });
+            //FadeIN
+            $('#boton8').click(function() {
+                $('#parrafo4').fadeIn(5000);
+            });
+            //FadeOUT
+            $('#boton9').click(function() {
+                $('#parrafo4').fadeOut(5000);
+            });
+            //AddClass
+            $('#boton10').click(function() {
+                $('#parrafo5').addClass("EjemploClass");
+            });
+            //Before
+            $('#boton11').click(function() {
+                $('#parrafo6').before("<p>Before - Agregar codigo html despues de forma dinamica</p>");
+            });
+            //after
+            $('#boton12').click(function() {
+                $('#parrafo6').after("<p>After - Agregar codigo html antes de forma dinamica");
+            });
+            //append
+            $('#boton13').click(function() {
+                $('#parrafo7').append(" <br>Texto nuevo");
+            });
+            //html
+            $('#boton14').click(function() {
+                $('#parrafo7').html("Texto html");
+            });
+            //Attr, val, text
+            $('#boton15').click(function() {
+                $('#parrafo8').attr("align", "center");
+            });
+            //val
+            $('#boton16').click(function() {
+                $('#parrafo8').val();
+            });
+            //html
+            $('#boton17').click(function() {
+                $('#parrafo8').text("Texto html");
+            });
+            //fin JQuery    
+        });
+    </script>
+    <style>
+        .EjemploClass {
+            background-color: blue;
+            color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>FUNCIÓN CLICK</h1>
+        <p>Clickea el botón para ejecutar el evento click</p>
+        <button id="boton1">Funcion click</button>
+        <hr>
+        <h1>FUNCIÓN HIDE, SHOW y TOGGLE</h1>
+        <p id="parrafo2">Clickea el botón para ejecutar el evento</p>
+        <button id="boton2">Funcion hide</button>
+        <button id="boton3">Funcion show</button>
+        <button id="boton4">Funcion toggle</button>
+        <hr>
+        <h1>FUNCIÓN slideDown, slideUp, slideToggle</h1>
+        <p id="parrafo3">Clickea el botón para ejecutar el evento</p>
+        <button id="boton5">Funcion slideDown</button>
+        <button id="boton6">Funcion slideUp</button>
+        <button id="boton7">Funcion slideToggle</button>
+        <hr>
+        <h1>FUNCIÓN FadeIN, FadeOUT</h1>
+        <p id="parrafo4">Clickea el botón para ejecutar el evento</p>
+        <button id="boton8">Funcion FadeIN</button>
+        <button id="boton9">Funcion FadeOUT</button>
+        <hr>
+        <h1>FUNCIÓN AddClass</h1>
+        <p id="parrafo5">Clickea el botón para ejecutar el evento</p>
+        <button id="boton10">Funcion ADDClass</button>
+        <hr>
+        <h1>FUNCIÓN Before, After</h1>
+        <p id="parrafo6">Clickea el botón para ejecutar el evento</p>
+        <button id="boton11">Funcion Before</button>
+        <button id="boton12">Funcion After</button>
+        <hr>
+        <h1>FUNCIÓN append, Html</h1>
+        <p id="parrafo7">Clickea el botón para ejecutar el evento</p>
+        <button id="boton13">Funcion append</button>
+        <button id="boton14">Funcion Html</button>
+        <hr>
+        <h1>FUNCIÓN attr, val, text</h1>
+        <p id="parrafo8">Clickea el botón para ejecutar el evento</p>
+        <button id="boton15">Funcion Attr</button>
+        <button id="boton16">Funcion val</button>
+        <button id="boton17">Funcion text</button>
+        <hr>
+    </div>
+</body>
+
+</html>
