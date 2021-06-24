@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script>
+    $(document).ready(function(res) {
+        $('form').submit(function(res) {
+            let localidad = ciudad.value
+            $("#container2").empty();
+            $('#container2').slideDown(500);
+            // your code here (build up your url)
+            $.get("http://api.openweathermap.org/data/2.5/weather?q=" + localidad + ",&APPID=a9524a8c39a06fbc9ae488464fedb381", function(res) {
+                // your code here
+                console.log(localidad)
+                console.log(res)
+                console.log(res.name)
+
+                $('#container2').append('<h3 id="text1"> La Ciudad es ' + res.name + '</h3>');
+                $('#container2').append('<h3 id="text2"> La Temperatura es ' + Math.round((parseFloat(res.main.temp) - 273.15), -1) + ' C° </h3>');
+                $('#container2').append('<h3 id="text3"> Las Coordenadas ' + res.coord.lat + ',' + res.coord.lon + '</h3>');
+            }, 'json');
+            $('#container2').click(function() {
+                $('#container2').slideUp(500);
+            });
+            // don't forget to return false so the page doesn't refresh
+            return false;
+
+        });
+    });
+</script>
+
+<style>
+    #container {
+        width: 800px;
+        background: rgb(216, 241, 241);
+        background: linear-gradient(0deg, rgba(216, 241, 241, 1) 0%, rgba(253, 187, 45, 1) 100%);
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    
+    .h3 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .boton {
+        display: inline-block;
+    }
+    
+    .redondeadonorelieve {
+        border-radius: 5px;
+        border: 1px solid #39c;
+        font-size: 16px;
+    }
+</style>
+
+
+<body>
+    <div id="container">
+        <form action="">
+            <label for="ciudad">Ciudad</label><br>
+            <input type="text" class="redondeadonorelieve" id="ciudad" name="ciudad" value="Santiago">
+            <button type="submit" class="boton">Buscar Clima</button>
+        </form>
+        <div id="container2"></div>
+    </div>
+
+</body>
+
+</html>
