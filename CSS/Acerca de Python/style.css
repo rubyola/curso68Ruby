@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    outline: 1px dotted red;
+}
+
+#contenedor {
+    background: #265175;
+    height: 970px;
+    width: 100%;
+    margin: auto;
+}
+
+#contenedor img {
+    width: 400px;
+    height: auto;
+    margin: 40px;
+    margin-top: 30px;
+}
+
+.search {
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    margin-top: 30px;
+}
