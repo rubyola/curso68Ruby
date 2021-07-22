@@ -1,0 +1,18 @@
+-- Use se utiliza para designar la base de datos a trabajar
+use reforzamiento;
+
+-- crear una tabla
+create table usuarios(
+id INT auto_increment not null unique primary key,
+nombre varchar(45) Not null,
+email varchar(45) Not null,
+created_at datetime Not null,
+updated_at datetime not null
+);
+
+select * from usuarios;
+INSERT INTO usuarios
+(nombre, email, created_at, updated_at)
+nombreidnombreemailPRIMARYvalues ("julian","info@julian.cl","2021-07-03 14:20:00","2021-07-03 14:20:00");
+
+
