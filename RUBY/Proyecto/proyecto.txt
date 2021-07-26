@@ -1,0 +1,2 @@
+Proyecto
+Crea una clase Proyecto que tenga los siguientes atributos: nombre, descripcion. Además, crea un método de instancia llamado presentacion que muestre el nombre del proyecto y su descripción separados por una coma.
