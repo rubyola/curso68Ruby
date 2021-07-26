@@ -1,0 +1,15 @@
+Desafíos 
+Métodos Útiles
+Vamos, intenta los siguientes métodos:
+
+.delete(clave) => elimina y devuelve un valor asociado con la clave.
+ejemploruby h = {:nombre => "Coding", :apellido => "Dojo"} h.delete(:apellido) print h # => {:nombre => "Coding"}
+.empty? => devuelve true si el hash no contiene pares de clave-valor
+.has_key?(clave) => true ó  false
+.has_value?(valor) => true ó false
+La Evolución de Ruby
+Instanciar un Hash
+Como vimos en el ejemplo anterior, podemos declarar un hash utilizando la siguiente sintaxis:
+
+nuestro_hash = {:nombre => "Coding", :apellido => "Dojo"}
+En nombre de la elegancia, ahora tenemos una nueva forma de crear un hash:

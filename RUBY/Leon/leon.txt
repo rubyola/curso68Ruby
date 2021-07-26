@@ -1,0 +1,6 @@
+Leon
+Ahora, crea otra clase llamada Leon que herede de Mamifero. Pista: super
+
+(Sí, este es un león volador).
+
+ Debe tener la salud predeterminada de 170.  Agregue un nuevo método llamado volar, que cuando se invoque, disminuya la salud en 10.  Agregue un nuevo método llamado atacar_ciudad, que cuando se invoque, disminuya la salud en 50.  Agregue un nuevo método llamado comer_humanos, que cuando se invoque, aumente la salud en 20.  Haz que Leon ataque la ciudad tres veces, coma humanos dos veces, vuele dos veces y luego muestre su salud. Cuando se llame al método mostrar_salud de Leon, diga 'Este es un león' antes de que muestre la información predeterminada (asegúrate de llamar a la función mostrar_salud de la clase de la que hereda).
